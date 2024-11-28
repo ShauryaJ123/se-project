@@ -1,0 +1,27 @@
+version: "3.7"
+services:
+  db:
+    image: postgres:alpine
+    environment:
+      POSTGRES_USER: user123
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: db123
+    ports:
+      - "5433:5432"
+    networks:
+      - app-network
+
+  app:
+    # image: go-app  # Reference the image built with docker build
+    build: .
+    
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

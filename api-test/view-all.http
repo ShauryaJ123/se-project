@@ -1,0 +1,3 @@
+GET http://localhost:8080/events/my-registrations
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZTIuY29tIiwiZXhwIjoxNzMyNzEyOTYyLCJ1c2VySWQiOjE3fQ.XYwEJ6CCfK1GiybF6TYmJRfld4EHFuG-jSpfllmCdiE
+

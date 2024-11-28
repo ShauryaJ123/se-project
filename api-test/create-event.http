@@ -1,0 +1,11 @@
+POST http://localhost:8080/events
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZTIuY29tIiwiZXhwIjoxNzMyNzE4OTUxLCJ1c2VySWQiOjE3fQ.HQSxjL-MMCJcwkBXQBmb9E80gJzgqI1kbQaVK3cntQg
+Content-Type: application/json
+
+{
+    "name": "Sample Event10",
+    "description": "This is a sample description10",
+    "location": "Sample Location10",
+    "start_time": "2024-11-30T10:00:00Z",
+    "end_time": "2024-11-30T12:00:00Z"
+}

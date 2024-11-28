@@ -1,0 +1,17 @@
+POST http://localhost:8080/signup
+Content-Type: application/json
+
+{
+  "email": "user@example3.com",
+  "password": "password",
+  "username":"test3"
+}
+###
+POST http://localhost:8080/login
+content-type: application/json
+
+{
+    "email":"admin@thapar.edu",
+    "password":"password",
+    "username":"dhruv"
+}

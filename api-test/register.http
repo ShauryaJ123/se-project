@@ -1,0 +1,3 @@
+POST http://localhost:8080/events/register/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRocnV2QHRoYXBhci5lZHUiLCJleHAiOjE3MzI4MDQzODMsInVzZXJJZCI6MzR9.mVtL8YHm8fggo5MklKcEahKrk3x23an4TXxIbzArGs8
+

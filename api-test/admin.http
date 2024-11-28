@@ -1,0 +1,13 @@
+GET http://localhost:8080/admin/view-pending
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQHRoYXBhci5lZHUiLCJleHAiOjE3MzI4MTAyODksInVzZXJJZCI6MTV9.Ky04SwsGIGNkArzAt9ttEHRPtjupCW97PhbH1vZyCz0
+###
+
+POST http://localhost:8080/admin/view-pending
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQHRoYXBhci5lZHUiLCJleHAiOjE3MzI4MTAyODksInVzZXJJZCI6MTV9.Ky04SwsGIGNkArzAt9ttEHRPtjupCW97PhbH1vZyCz0
+Content-Type: application/json
+
+{
+  "event_id": 11,
+  "status": "approved"
+}
+
